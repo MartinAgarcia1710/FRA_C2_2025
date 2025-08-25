@@ -12,3 +12,7 @@ numero_3 = int(input("Numero 3: "))
 resultado_promedio = funciones.promedio(numero_1, numero_2, numero_3)
 
 print(f"El promedio es: {resultado_promedio}")
+
+resultado_suma, resultado_resta, resultado_multiplicacion = funciones.operar(numero_1, numero_2)
+
+funciones.dividir(numero_1, numero_2)
