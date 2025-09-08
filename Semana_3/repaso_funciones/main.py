@@ -1,5 +1,6 @@
-import funciones as fn
-
+#import funciones
+from funciones import *
+#from auxiliares import *
 while True:
     print("\t---- Menú principal----")
     print("1. Registrar turno")
@@ -10,13 +11,14 @@ while True:
     opcion = input("Ingresar opción: ")
     
     if opcion == "1":
-        no, tu = fn.pedir_turno()
-        print(fn.registrar_turno(no, tu))
+        #no, tu = funciones.pedir_turno()
+        no, tu = pedir_turno()
+        print(registrar_turno(no, tu))
     elif opcion == "2":
-        hs, tu = fn.pedir_pago()
-        print(fn.calcular_pago(hs, tu))
+        hs, tu = pedir_pago()
+        print(calcular_pago(hs, tu))
     elif opcion == "3":
-        fn.mensaje_agradecimiento()
+        mensaje_agradecimiento()
     elif opcion == "4":
         print("Nos vemos")
         break
