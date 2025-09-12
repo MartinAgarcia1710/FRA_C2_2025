@@ -4,6 +4,7 @@
 # Además, mostrar el promedio general del curso de cada materia.
 # Las materias son: Programación I, Matemática, Inglés I y AySO.
 
+#linea agregadad
 import constantes
 import funciones as fn
 
