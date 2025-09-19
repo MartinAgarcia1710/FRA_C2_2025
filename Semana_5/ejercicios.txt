@@ -1,0 +1,18 @@
+#Ejercicio 1: Registro de Temperaturas
+Una estación meteorológica registra las temperaturas diarias de una semana (7 días) en 3 horarios (mañana, tarde y noche).
+Cargar en una matriz 7x3 las temperaturas (números enteros) y mostrar:
+    El promedio de temperatura de cada día.
+    El promedio general de toda la semana.
+
+#Ejercicio 2: Puntajes de un Torneo
+En un torneo de programación hay 4 equipos que compiten en 5 rondas.
+Cargar en una matriz 4x5 los puntajes obtenidos (enteros). Luego mostrar:
+    El puntaje total de cada equipo.
+    Qué equipo obtuvo el mayor puntaje en total.
+
+#Ejercicio 3: Control de Producción
+Una fábrica produce 3 productos y mide la producción durante 4 días.
+Cargar en una matriz 3x4 las cantidades producidas. Mostrar:
+    La producción total de cada producto.
+    La producción total de cada día.
+    Cuál fue el día con mayor producción total.

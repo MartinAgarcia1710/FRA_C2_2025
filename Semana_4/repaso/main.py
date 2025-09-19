@@ -26,7 +26,7 @@ for persona in vec_personas:
 
 
 print("======================================================")
-for i in range(0, len(vec_personas), 2):
+for i in range(0, len(vec_personas)):
     print(f"Persona {i + 1}: {vec_personas[i]}")
 
 print("======================================================")
@@ -42,6 +42,7 @@ for i in range(len(vec_personas)):
     print(f"Nombre: {vec_personas[i][0]} - Edad: {vec_personas[i][1]} " )
 
 
+variable_nueva = 0
 
 cadena = "Programación 1"
 
