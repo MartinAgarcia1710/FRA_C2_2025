@@ -23,7 +23,7 @@ def burbuja_mejorado(vec):
     for i in range(tam - 1):
         intercambio = False
         for j in range(tam - i - 1):
-            if vec[j].lower() >vec[j + 1].lower():
+            if vec[j].lower() > vec[j + 1].lower():
                 vec[j], vec[j + 1] = vec[j + 1], vec[j]
                 intercambio = True
         
