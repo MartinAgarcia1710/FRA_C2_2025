@@ -8,8 +8,8 @@ cantidad = 0
 # Función: validar que no esté vacío
 def ingresar_texto(mensaje):
     texto = ""
-    while texto.strip() == "":
-        texto = input(mensaje).strip()
+    while texto == "":
+        texto = input(mensaje)
         if texto == "":
             print("No puede quedar en blanco.")
     return texto
@@ -17,10 +17,11 @@ def ingresar_texto(mensaje):
 # Función: validar puntaje entre 1 y 10
 def ingresar_puntaje(mensaje):
     while True:
-      valor = int(valor)
-      if 1 <= valor <= 10:
-          return valor
-      print("Debe ingresar un número entre 1 y 10.")
+        numero = int(input(mensaje))
+        if 1 <= numero <= 10:
+            return numero
+        else:
+            print("Debe ingresar un número entre 1 y 10.")
 
 # Opción 1: Ingresar datos
 def ingresar_datos(nombres, puntajes, comentarios, cantidad):
