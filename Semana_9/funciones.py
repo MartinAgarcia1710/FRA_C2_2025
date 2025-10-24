@@ -13,6 +13,6 @@ def mostrar_excepto_excluido(archivo:str, nombre:str) -> None:
         print("== Nombres almacenados ==")
         for n in lista_nombres:
             if n.strip().lower() != nombre.strip().lower():
-                print(n)
+                print("\t" + n)
 
 

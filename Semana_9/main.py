@@ -1,5 +1,5 @@
 # Archivos
-# Apertura de archivo: método / función open(nombre o ruta del archivo, mopdo de apertura)
+# Apertura de archivo: método / función open(nombre o ruta del archivo, moodo de apertura)
 #   Parámatros
 #       1. nombre o ruta del archivo
 #       2. Modo de apertura:
@@ -14,7 +14,7 @@ archivo = open("personas.txt", "w") # Abro archivo en escritura. Pisa si hay con
 #archivo.write("Voy a pisar el contenido anterior") # Solo escribimos una línea
 lista_persona = ["Pedro\n", "Lopez\n", "Mar Del Plata\n"]
 archivo.writelines(lista_persona)
-archivo.write("\n")
+archivo.write("dsdfdsfdsfsdfsdfdsfdsfdsfsdfdsf")
 lista_nueva = ["Pedr○\n", "Lopez\n", "Mar Del Plata\n"]
 #archivo.writelines(["Pedr○\n", "Lopez\n", "Mar Del Plata\n"])
 archivo.close()    
@@ -30,6 +30,10 @@ arc.close()
 # ------------- Agregar al final --------------
 with open(nombre_archivo, "a") as a:
     a.write("agrego algo al final")
+
+print("Nombre\tApellido\tCiudad")
+print("Leandro\tRoca\tAvellaneda")
+
 
 # -------------- Ejemplo ----------------------
 
