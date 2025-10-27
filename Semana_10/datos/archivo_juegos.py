@@ -32,6 +32,8 @@ def guardar_catalogo(nombre_archivo, catalogo):
     with open(nombre_archivo, "w", encoding="utf-8") as archivo:
         archivo.write("NOMBRE,MIN JUG,MAX JUG,ATP\n")
         for juego in catalogo:
+
+            
             archivo.write(f"{juego['nombre']},{juego['min']},{juego['max']},{juego['atp']}\n")
 
 

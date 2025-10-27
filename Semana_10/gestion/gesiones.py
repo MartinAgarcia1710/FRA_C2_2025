@@ -6,8 +6,10 @@ def mostrar_catalogo(catalogo):
     """
     catalogo = datos.archivo_juegos.cargar_catalogo("juegos.csv")
     # Si el catálogo está vacío, la función de validación se encarga de mostrar el mensaje y salir
+    
     if not validar.validar_catalogo_vacio(catalogo):
         return
+    
     '''
     ________________________________
             |   MIN  |  MAX  |  ATP
@@ -20,7 +22,10 @@ def mostrar_catalogo(catalogo):
     print("╔" + "═" * 27 + "╦" + "═" * 7 + "╦" + "═" * 7 + "╦" + "═" * 7 + "╗")
 
     # Encabezados de columna centrados
+
     print(f"║ {'NOMBRE':^25} ║ {'MIN':^5} ║ {'MAX':^5} ║ {'ATP':^5} ║")
+    
+    
     # < : Alinea hacia la izquierda
     # > : Alinea hacia la derecha
     # ^ : Alinea al centro
