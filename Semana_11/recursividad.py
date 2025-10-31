@@ -81,7 +81,7 @@ def hanoi(n, origen, destino, auxiliar):
 
     # 
     if n == 1: # Caso Base
-        print(f"Mover disco desde {origen} hacia {destino}")
+        print(f"Mover disco de {origen} hacia {destino}")
     else: # Caso recursivo
         # Paso 1: mover los (n-1) discos superiores desde la torre de origen
         # a la torre auxiliar usando torre destino como apoyo
